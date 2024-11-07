@@ -1,0 +1,72 @@
+/* Box1 (Header) styling */
+.box1 {
+    text-align: center;
+    background-image: url(./images/1.jfif); /* Rasm yo'lini yangilang */
+    background-size: cover;  /* Foni butunlay ekranga moslashtirish */
+    background-position: center;  /* Rasmni markazlashtirish */
+}
+
+/* Box2 (Navigation buttons) styling */
+.box2 {
+    padding: 15px 40px;  /* Yuqori-pastki va chap-o'ng padding */
+    border-radius: 5px;
+    background: green;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+}
+
+/* Logo rasmni markazlashtirish */
+.box1 img {
+    display: block;
+    margin: 0 auto;  /* Markazlashtirish */
+    max-width: 100%;  /* Rasmni ekran kengligiga moslashtirish */
+}
+
+/* Box3 (Main text section) */
+.box3 h1 {
+    padding: 30px;
+    font-size: 48px;
+    color: white;
+}
+
+/* Main section background */
+.main {
+    background-image: url(./russian-arbus-melon-tshirt-hot-summer-days-shirt-mens-hoodie.jpg);
+    background-size: cover;  /* Rasmni butunlay ekranga moslashtirish */
+    background-position: center;  /* Rasmni markazlashtirish */
+}
+
+/* Navigation menu styling */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: green;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
